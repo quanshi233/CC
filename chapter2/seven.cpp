@@ -11,6 +11,7 @@ int main(){
     time1(hour, minute);
     return 0;
 }
-void time1(int a,int b){
+void time1(int a,int b)
+{
     cout << "Time: " << a << " : "<< b;
 }
