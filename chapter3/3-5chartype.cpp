@@ -15,7 +15,7 @@ int main(){
         cout << "Enter a ASCII code: " <<endl;
         cin >> ascii;
         ch = ascii;
-        cout <<"The ASCII code for " << char(ch) << " is " << ascii << endl;
+        cout <<"The ASCII code for " << ch << " is " << ascii << endl;
     }
     cout << "Displaying char ch using cout.put(ch): ";
     cout.put(ch);
