@@ -1,8 +1,7 @@
 #include <iostream>
-double smaller(double, double);
-double bigger(double, double);
+#include "compare.h"
 int main(){
-    int a, b;
+    double a, b;
     long long c=0;
     using namespace std;
     cout << "Please enter two number.\n";
@@ -12,24 +11,10 @@ int main(){
             c += val;
         }
     }else{
-        for(int val; val <= b; val++){
+        for(int val = a; val <= b; val++){
             c += val;
         }
     }
     cout << "Sum of " << smaller(a, b) <<" to " << bigger(a, b) << " is " << c <<endl;
     return 0;
-}
-double smaller(double a, double b){
-    if(a>=b){
-        return b;
-    }else{
-        return a;
-    }
-}
-double bigger(double a, double b){
-    if(a>=b){
-        return a;
-    }else{
-        return b;
-    }
 }
