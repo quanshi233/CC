@@ -14,7 +14,7 @@ int main(){
         for(a; a<=b; a++){
             c += a;
         }
+    }
     cout << "Sum of " << number1 <<" to " << number2 << " is " << c <<endl;
     return 0;
-    }
 }
