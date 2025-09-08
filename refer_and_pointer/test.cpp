@@ -2,9 +2,8 @@
 #include <cstring>
 using namespace std;
 int main(){
-    char temp[80];
-    cout << "Enter last name: ";
-    cin >> temp;
-    cout << strlen(temp);
+    int arr[]={12,231};
+    int len = sizeof(arr)/sizeof(arr[0]);
+    std::cout << len;
 }
 
