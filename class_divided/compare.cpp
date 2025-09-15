@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#include "circle.h"
+
 void isInCircle(Circle &circle, Point &point)
 {
     //计算两点之间距离平方

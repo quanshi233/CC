@@ -1,25 +1,17 @@
-#include <iostream>
-using namespace std;
-class Point
+#include "point.h"
+void Point::setX(int x)
 {
-public:
-    void setX(int x)
-    {
-        m_X = x;
-    }
-    int getX()
-    {
-        return m_X;
-    }
-    void setY(int y)
-    {
-        m_Y = y;
-    }
-    int getY()
-    {
-        return m_Y;
-    }
-private:
-    int m_X;
-    int m_Y;
-};
+    m_X = x;
+}
+int Point::getX()
+{
+    return m_X;
+}
+void Point::setY(int y)
+{
+    m_Y = y;
+}
+int Point::getY()
+{
+    return m_Y;
+}
