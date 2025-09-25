@@ -32,6 +32,6 @@ void test02(){
     return;
 }
 int main(){
-    test02();
+    test01();
     return 0;
 }
